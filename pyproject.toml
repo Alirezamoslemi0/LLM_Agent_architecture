@@ -1,0 +1,27 @@
+[project]
+name = "03-llm-agent-architecture"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Alirezamoslemi0", email = "Alirezamoslemi54@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "black>=26.10.1",
+    "ipykernel>=7.4.0",
+    "isort>=9.0.2",
+    "langchain>=1.5.0",
+    "langchain-openai>=1.7.4",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+03-llm-agent-architecture = "_03_llm_agent_architecture:main"
+
+[tool.uv.build-backend]
+module-name = "_03_llm_agent_architecture"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
